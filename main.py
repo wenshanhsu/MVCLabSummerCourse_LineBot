@@ -42,9 +42,6 @@ For first testing, you can comment the code below after you check your linebot c
 CHANNEL_ID = os.getenv('LINE_UID') # For any message pushing to or pulling from Line Bot using this ID
 # My_LineBotAPI.push_message(CHANNEL_ID, TextSendMessage(text='Welcome to my pokedex !')) # Push a testing message
 
-# Events for message reply
-my_event = ['#getpokemon', '#mypokemon', '#addpokemon', '#delpokemon', '#help']
-
 '''
 See more about Line Emojis, references below
 > Line Bot Free Emojis, https://developers.line.biz/en/docs/messaging-api/emoji-list/
